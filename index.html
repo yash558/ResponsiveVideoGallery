@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Video-Gallery</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <div class="container">
+        <div class="side-bar">
+            <ul class="list">
+                <li class="active" data-src="images/vid-1.mp4">Cheese Burger</li>
+                <li data-src="images/vid-2.mp4">Pizza decoration</li>
+                <li data-src="images/vid-3.mp4">Sandwich decoration</li>
+                <li data-src="images/vid-4.mp4">puring Coffee</li>
+                <li data-src="images/vid-5.mp4">chocolate closeup</li>
+                <li data-src="images/vid-6.mp4">slicing cake</li>
+                <li data-src="images/vid-7.mp4">donuts zooming</li>
+                <li data-src="images/vid-8.mp4">instead noodles</li>
+            </ul>
+        </div>
+        <div class="video-container">
+            <video src="images/vid-1.mp4" loop muted autoplay control></video>
+        </div>
+    </div>
+
+    <script src="head.js"></script>
+</body>
+
+</html>
